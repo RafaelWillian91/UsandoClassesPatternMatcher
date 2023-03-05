@@ -14,7 +14,7 @@ public class RegexApp3 {
         Pattern p = Pattern.compile("\\w*\\s\\w*");// \\w* é um ou mais caracteres, espaco e um ou mais caracters
         Matcher m = p.matcher("abc def");
 
-        m.matches();//O metodo matches retorno um booleano para mostrar se encontrou um espaco em Branco
+        m.matches();//O metodo matches retorno um booleano para mostrar se encontrou um espaco em Branco e a String segue o poadrao
         System.out.println(m.matches());
 
         System.out.println("123h4".matches("\\d+"));// Outro modo de verificar uma String é composta de um ou mais digitos e só digitos
