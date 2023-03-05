@@ -9,6 +9,7 @@ public class RegexApp1 {
 
         String text = "abcabc";
         String regex = "b";
+        String regex2 = "\\w";//Meta Caracter
 
         //Para encontrar o "b" existem 2 classes que trabalhamos. A classe Pattern
 
